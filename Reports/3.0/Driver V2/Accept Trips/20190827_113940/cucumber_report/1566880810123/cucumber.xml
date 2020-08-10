@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="38.598683">
+<testcase classname="Trips" name="Accept Order" time="38.598683">
+<system-out><![CDATA[Given User open trip menu...................................................passed
+Then User see tab trip......................................................passed
+When User swipe top to buttom...............................................passed
+Then User see order cards...................................................passed
+When User tap first cards...................................................passed
+And User tap yes button.....................................................passed
+Then User see tab trip......................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

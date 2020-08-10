@@ -1,0 +1,275 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 26,
+        "name": "Single Order as Dira XL",
+        "description": "",
+        "id": "orders;single-order-as-dira-xl;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 105625037,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "QA generate unique number for testing",
+            "match": {
+              "location": "OrdersXL.initialQATesting()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 490077390,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User click order menu",
+            "match": {
+              "location": "OrdersXL.userClickOrderMenu()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 39637393,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User see order menu",
+            "match": {
+              "location": "OrdersXL.userSeeOrderMenu()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 680561792,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User click add order menu",
+            "match": {
+              "location": "OrdersXL.userClickAddOrderMenu()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 45145707,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User see add order menu",
+            "match": {
+              "location": "OrdersXL.userSeeAddOrderMenu()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2515696660,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User fill company transporter Ayaayawae",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Ayaayawae",
+                  "offset": 30
+                }
+              ],
+              "location": "OrdersXL.userFillCompanyTransporter(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2692958347,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User fill origin Jeki kompeni",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Jeki kompeni",
+                  "offset": 17
+                }
+              ],
+              "location": "OrdersXL.userFillOrigin(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2626966594,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User fill destination Rizki kompeni",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Rizki kompeni",
+                  "offset": 22
+                }
+              ],
+              "location": "OrdersXL.userFillDestination(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 152102780,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User fill po number",
+            "match": {
+              "location": "OrdersXL.userFillPoNumber()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 135514901,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User fill order number",
+            "match": {
+              "location": "OrdersXL.userFillOrderNumber()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 199291683,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User fill shipment number",
+            "match": {
+              "location": "OrdersXL.userFillShipmentNumber()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2638184518,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User fill vehicle type CDD",
+            "match": {
+              "arguments": [
+                {
+                  "val": "CDD",
+                  "offset": 23
+                }
+              ],
+              "location": "OrdersXL.userFillVehicleType(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 75465386,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User fill shipper price",
+            "match": {
+              "location": "OrdersXL.userFillShipperPrice()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 154089548,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User fill description",
+            "match": {
+              "location": "OrdersXL.userFillDescription()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 90549063,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User fill instruction",
+            "match": {
+              "location": "OrdersXL.userFillInstruction()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1472481263,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User fill pickup time estimation",
+            "match": {
+              "location": "OrdersXL.userFillPickupTimeEstimation()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 257781775,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User click traced button",
+            "match": {
+              "location": "OrdersXL.userClickTracedButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3308113096,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User click add order",
+            "match": {
+              "location": "OrdersXL.userClickAddOrder()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 34546418,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User see popup order success",
+            "match": {
+              "location": "OrdersXL.userSeePopupOrderSuccess()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Orders",
+    "description": "",
+    "id": "orders",
+    "keyword": "Feature",
+    "uri": "/home/jarwo/Katalon Studio/Ritase Automation Testing/Include/features/Web/Orders/SingleOrderXL.feature",
+    "tags": []
+  }
+]

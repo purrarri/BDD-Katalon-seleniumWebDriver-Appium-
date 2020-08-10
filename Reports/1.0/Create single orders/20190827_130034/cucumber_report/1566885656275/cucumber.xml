@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="18.173992">
+<testcase classname="Orders" name="Single Order as Dira XL" time="18.173992">
+<system-out><![CDATA[Given QA generate unique number for testing.................................passed
+When User click order menu..................................................passed
+Then User see order menu....................................................passed
+When User click add order menu..............................................passed
+Then User see add order menu................................................passed
+When User fill company transporter Ayaayawae................................passed
+And User fill origin Jeki kompeni...........................................passed
+And User fill destination Rizki kompeni.....................................passed
+And User fill po number.....................................................passed
+And User fill order number..................................................passed
+And User fill shipment number...............................................passed
+And User fill vehicle type CDD..............................................passed
+And User fill shipper price.................................................passed
+And User fill description...................................................passed
+And User fill instruction...................................................passed
+And User fill pickup time estimation........................................passed
+And User click traced button................................................passed
+And User click add order....................................................passed
+Then User see popup order success...........................................passed
+]]></system-out>
+</testcase>
+</testsuite>

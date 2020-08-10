@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="46.803187">
+<testcase classname="Login" name="Login Drivers" time="46.803187">
+<system-out><![CDATA[Given User install and open ritase driver apps..............................passed
+When User tap initial login button..........................................passed
+And User fill email address driver sopo@qa.com..............................passed
+And User fill password driver rahasia.......................................passed
+And User tap login button...................................................passed
+Then User see tab trip......................................................passed
+When User swipe right to left...............................................passed
+Then User see tab wallet....................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

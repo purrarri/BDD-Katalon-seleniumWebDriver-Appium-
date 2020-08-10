@@ -1,0 +1,6 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Check login and swipe button,,,,2019-08-27 14:07:26,2019-08-27 14:08:18,52.133s,INCOMPLETE
+,,,,,,,
+Test Cases/Mobile Drivers/Login/Login Drivers,,,,2019-08-27 14:07:27,2019-08-27 14:08:18,51.943s,INCOMPLETE
+"callTestCase(findTestCase(""Mobile Drivers/Initial""), [:], STOP_ON_FAILURE)",,,,2019-08-27 14:07:27,2019-08-27 14:08:18,51.737s,PASSED
+Start listener action : exportKatalonReports,,,,2019-08-27 14:08:18,2019-08-27 14:08:18,0.000s,INCOMPLETE

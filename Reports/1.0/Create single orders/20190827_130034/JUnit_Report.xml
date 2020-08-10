@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<testsuites name="Create single orders" time="31" tests="2" failures="0" errors="0">
+    <testsuite name="Create single orders" tests="2" failures="0" errors="0" time="31" timestamp="2019-08-27 13:00:42" hostname="jarwo - redstar" id="Test Suites/1.0/Create single orders">
+        <properties>
+            <property name="deviceName" value=""/>
+            <property name="devicePlatform" value=""/>
+            <property name="logFolder" value="/home/jarwo/Katalon Studio/Ritase Automation Testing/Reports/1.0/Create single orders/20190827_130034"/>
+            <property name="logFiles" value="/home/jarwo/Katalon Studio/Ritase Automation Testing/Reports/1.0/Create single orders/20190827_130034/execution0.log"/>
+            <property name="attachments" value=""/>
+            <property name="hostName" value="jarwo - redstar"/>
+            <property name="os" value="Linux 64bit"/>
+            <property name="katalonVersion" value="6.2.1.2"/>
+            <property name="browser" value="Firefox 68.0"/>
+            <property name="hostAddress" value="127.0.1.1"/>
+            <property name="sessionId" value="2b19e6b9-a1c1-4a6c-9454-60c4c2192ff3"/>
+            <property name="seleniumVersion" value="3.141.59"/>
+            <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+            <property name="platform" value="Linux"/>
+        </properties>
+        <testcase name="Test Cases/Web Ritase/Login/Login Shippers (DIRA XL)" classname="Test Cases/Web Ritase/Login/Login Shippers (DIRA XL)" status="PASSED">
+            <system-out>2019-08-27 13:00:42 - [TEST_CASE][PASSED] - Test Cases/Web Ritase/Login/Login Shippers (DIRA XL): Test Cases/Web Ritase/Login/Login Shippers (DIRA XL)
+
+2019-08-27 13:00:42 - [TEST_STEP][PASSED] - runFeatureFile("Include/features/Web/Login/LoginShippers.feature", STOP_ON_FAILURE): Feature file: 'Include/features/Web/Login/LoginShippers.feature' was passed
+
+2019-08-27 13:00:43 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/Web/Login/LoginShippers.feature' and extract report to folder: '/home/jarwo/Katalon Studio/Ritase Automation Testing/Reports/1.0/Create single orders/20190827_130034/cucumber_report/1566885643018'...
+
+2019-08-27 13:00:43 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Login Shippers: SCENARIO Login Shippers
+
+2019-08-27 13:00:43 - [TEST_STEP][PASSED] - User open browser and visit https://staging.shippers.rit-ase.com/: User open browser and visit https://staging.shippers.rit-ase.com/
+
+2019-08-27 13:00:43 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-08-27 13:00:43 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-08-27 13:00:51 - [MESSAGE][PASSED] - Browser is opened with url: 'https://staging.shippers.rit-ase.com/'
+
+2019-08-27 13:00:51 - [MESSAGE][PASSED] - User open browser and visit https://staging.shippers.rit-ase.com/
+
+2019-08-27 13:00:51 - [TEST_STEP][PASSED] - User see login page: User see login page
+
+2019-08-27 13:00:51 - [MESSAGE][PASSED] - Text of object 'Object Repository/Shippers Web/Login/text_loginForm' is: 'Please login to partners account'
+
+2019-08-27 13:00:51 - [MESSAGE][PASSED] - User see login page
+
+2019-08-27 13:00:51 - [TEST_STEP][PASSED] - User fill email shippers order@xl.co.id: User fill email shippers order@xl.co.id
+
+2019-08-27 13:00:52 - [MESSAGE][PASSED] - Text 'order@xl.co.id' is set on object 'Object Repository/Shippers Web/Login/input_emailAddress'
+
+2019-08-27 13:00:52 - [MESSAGE][PASSED] - User fill email shippers order@xl.co.id
+
+2019-08-27 13:00:52 - [TEST_STEP][PASSED] - User fill password shippers YFZfyx+NhJE=: User fill password shippers YFZfyx+NhJE=
+
+2019-08-27 13:00:52 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Shippers Web/Login/input_password'
+
+2019-08-27 13:00:52 - [MESSAGE][PASSED] - User fill password shippers YFZfyx+NhJE=
+
+2019-08-27 13:00:52 - [TEST_STEP][PASSED] - User click button login: User click button login
+
+2019-08-27 13:00:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Shippers Web/Login/button_loginShippers' is clicked on
+
+2019-08-27 13:00:55 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-08-27 13:00:55 - [MESSAGE][PASSED] - User click button login
+
+2019-08-27 13:00:55 - [TEST_STEP][PASSED] - User see dashboard menu: User see dashboard menu
+
+2019-08-27 13:00:56 - [MESSAGE][PASSED] - Object 'Object Repository/Shippers Web/Login/text_DashboardTxt' is present
+
+2019-08-27 13:00:56 - [MESSAGE][PASSED] - User see dashboard menu
+
+2019-08-27 13:00:56 - [MESSAGE][PASSED] - Feature file: 'Include/features/Web/Login/LoginShippers.feature' was passed</system-out>
+            <system-err></system-err>
+        </testcase>
+        <testcase name="Test Cases/Web Ritase/Orders/Single Orders (DIRA XL)" classname="Test Cases/Web Ritase/Orders/Single Orders (DIRA XL)" status="PASSED">
+            <system-out>2019-08-27 13:00:56 - [TEST_CASE][PASSED] - Test Cases/Web Ritase/Orders/Single Orders (DIRA XL): Test Cases/Web Ritase/Orders/Single Orders (DIRA XL)
+
+2019-08-27 13:00:56 - [TEST_STEP][PASSED] - runFeatureFile("Include/features/Web/Orders/SingleOrderXL.feature", STOP_ON_FAILURE): Feature file: 'Include/features/Web/Orders/SingleOrderXL.feature' was passed
+
+2019-08-27 13:00:56 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/Web/Orders/SingleOrderXL.feature' and extract report to folder: '/home/jarwo/Katalon Studio/Ritase Automation Testing/Reports/1.0/Create single orders/20190827_130034/cucumber_report/1566885656275'...
+
+2019-08-27 13:00:56 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Single Order as Dira XL: SCENARIO Single Order as Dira XL
+
+2019-08-27 13:00:56 - [TEST_STEP][PASSED] - QA generate unique number for testing: QA generate unique number for testing
+
+2019-08-27 13:00:56 - [MESSAGE][PASSED] - QA generate unique number for testing
+
+2019-08-27 13:00:56 - [TEST_STEP][PASSED] - User click order menu: User click order menu
+
+2019-08-27 13:00:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Shippers Web/Orders/click_orderMenuButton' is clicked on
+
+2019-08-27 13:00:57 - [MESSAGE][PASSED] - User click order menu
+
+2019-08-27 13:00:57 - [TEST_STEP][PASSED] - User see order menu: User see order menu
+
+2019-08-27 13:00:57 - [MESSAGE][PASSED] - Text of object 'Object Repository/Shippers Web/Orders/text_orderMenuTxt' is: 'Manajemen Order'
+
+2019-08-27 13:00:57 - [MESSAGE][PASSED] - User see order menu
+
+2019-08-27 13:00:57 - [TEST_STEP][PASSED] - User click add order menu: User click add order menu
+
+2019-08-27 13:00:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Shippers Web/Orders/click_addOrderMenuButton' is clicked on
+
+2019-08-27 13:00:57 - [MESSAGE][PASSED] - User click add order menu
+
+2019-08-27 13:00:57 - [TEST_STEP][PASSED] - User see add order menu: User see add order menu
+
+2019-08-27 13:00:57 - [MESSAGE][PASSED] - Text of object 'Object Repository/Shippers Web/Orders/text_addOrderMenuTxt' is: 'Tambah Order'
+
+2019-08-27 13:00:57 - [MESSAGE][PASSED] - User see add order menu
+
+2019-08-27 13:00:57 - [TEST_STEP][PASSED] - User fill company transporter Ayaayawae: User fill company transporter Ayaayawae
+
+2019-08-27 13:00:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Shippers Web/Orders/click_companyTransport' is clicked on
+
+2019-08-27 13:01:00 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-27 13:01:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Shippers Web/Orders/companyTransport_Ayaayawae' is clicked on
+
+2019-08-27 13:01:00 - [MESSAGE][PASSED] - User fill company transporter Ayaayawae
+
+2019-08-27 13:01:00 - [TEST_STEP][PASSED] - User fill origin Jeki kompeni: User fill origin Jeki kompeni
+
+2019-08-27 13:01:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Shippers Web/Orders/click_originContact' is clicked on
+
+2019-08-27 13:01:02 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-27 13:01:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Shippers Web/Orders/originContact_Jeki kompeni' is clicked on
+
+2019-08-27 13:01:03 - [MESSAGE][PASSED] - User fill origin Jeki kompeni
+
+2019-08-27 13:01:03 - [TEST_STEP][PASSED] - User fill destination Rizki kompeni: User fill destination Rizki kompeni
+
+2019-08-27 13:01:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Shippers Web/Orders/click_destinationContact' is clicked on
+
+2019-08-27 13:01:05 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-27 13:01:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Shippers Web/Orders/destinationContact_Rizki kompeni' is clicked on
+
+2019-08-27 13:01:05 - [MESSAGE][PASSED] - User fill destination Rizki kompeni
+
+2019-08-27 13:01:05 - [TEST_STEP][PASSED] - User fill po number: User fill po number
+
+2019-08-27 13:01:06 - [MESSAGE][PASSED] - Text 'PO-70571' is set on object 'Object Repository/Shippers Web/Orders/input_poNumber'
+
+2019-08-27 13:01:06 - [MESSAGE][PASSED] - User fill po number
+
+2019-08-27 13:01:06 - [TEST_STEP][PASSED] - User fill order number: User fill order number
+
+2019-08-27 13:01:06 - [MESSAGE][PASSED] - Text 'ORD-56638' is set on object 'Object Repository/Shippers Web/Orders/input_orderNumber'
+
+2019-08-27 13:01:06 - [MESSAGE][PASSED] - User fill order number
+
+2019-08-27 13:01:06 - [TEST_STEP][PASSED] - User fill shipment number: User fill shipment number
+
+2019-08-27 13:01:06 - [MESSAGE][PASSED] - Text '84114739' is set on object 'Object Repository/Shippers Web/Orders/input_shipmentNumber'
+
+2019-08-27 13:01:06 - [MESSAGE][PASSED] - User fill shipment number
+
+2019-08-27 13:01:06 - [TEST_STEP][PASSED] - User fill vehicle type CDD: User fill vehicle type CDD
+
+2019-08-27 13:01:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Shippers Web/Orders/click_vehicleType' is clicked on
+
+2019-08-27 13:01:08 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-27 13:01:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Shippers Web/Orders/vehicleType_CDD' is clicked on
+
+2019-08-27 13:01:09 - [MESSAGE][PASSED] - User fill vehicle type CDD
+
+2019-08-27 13:01:09 - [TEST_STEP][PASSED] - User fill shipper price: User fill shipper price
+
+2019-08-27 13:01:09 - [MESSAGE][PASSED] - Text '1104826' is set on object 'Object Repository/Shippers Web/Orders/input_shipperPrice'
+
+2019-08-27 13:01:09 - [MESSAGE][PASSED] - User fill shipper price
+
+2019-08-27 13:01:09 - [TEST_STEP][PASSED] - User fill description: User fill description
+
+2019-08-27 13:01:09 - [MESSAGE][PASSED] - Text 'QA-88097' is set on object 'Object Repository/Shippers Web/Orders/input_description'
+
+2019-08-27 13:01:09 - [MESSAGE][PASSED] - User fill description
+
+2019-08-27 13:01:09 - [TEST_STEP][PASSED] - User fill instruction: User fill instruction
+
+2019-08-27 13:01:09 - [MESSAGE][PASSED] - Text 'QA-88097' is set on object 'Object Repository/Shippers Web/Orders/input_instruction'
+
+2019-08-27 13:01:09 - [MESSAGE][PASSED] - User fill instruction
+
+2019-08-27 13:01:09 - [TEST_STEP][PASSED] - User fill pickup time estimation: User fill pickup time estimation
+
+2019-08-27 13:01:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Shippers Web/Orders/click_pickupTimeEstimation' is clicked on
+
+2019-08-27 13:01:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Shippers Web/Orders/pickupTimeEstimation_today' is clicked on
+
+2019-08-27 13:01:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Shippers Web/Orders/pickupTimeEstimation_plusOneHour' is clicked on
+
+2019-08-27 13:01:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Shippers Web/Orders/pickupTimeEstimation_close' is clicked on
+
+2019-08-27 13:01:10 - [MESSAGE][PASSED] - User fill pickup time estimation
+
+2019-08-27 13:01:10 - [TEST_STEP][PASSED] - User click traced button: User click traced button
+
+2019-08-27 13:01:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Shippers Web/Orders/click_tracedButton' is clicked on
+
+2019-08-27 13:01:11 - [MESSAGE][PASSED] - User click traced button
+
+2019-08-27 13:01:11 - [TEST_STEP][PASSED] - User click add order: User click add order
+
+2019-08-27 13:01:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Shippers Web/Orders/click_addOrderButton' is clicked on
+
+2019-08-27 13:01:14 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-08-27 13:01:14 - [MESSAGE][PASSED] - User click add order
+
+2019-08-27 13:01:14 - [TEST_STEP][PASSED] - User see popup order success: User see popup order success
+
+2019-08-27 13:01:14 - [MESSAGE][PASSED] - Text of object 'Object Repository/Shippers Web/Orders/text_orderSuccess' is: 'Berhasil!'
+
+2019-08-27 13:01:14 - [MESSAGE][PASSED] - User see popup order success
+
+2019-08-27 13:01:14 - [MESSAGE][PASSED] - Feature file: 'Include/features/Web/Orders/SingleOrderXL.feature' was passed</system-out>
+            <system-err></system-err>
+        </testcase>
+        <system-out>2019-08-27 13:00:42 - [TEST_SUITE][INCOMPLETE] - Create single orders: null</system-out>
+        <system-err>2019-08-27 13:00:42 - [TEST_SUITE][INCOMPLETE] - Create single orders: null</system-err>
+    </testsuite>
+</testsuites>

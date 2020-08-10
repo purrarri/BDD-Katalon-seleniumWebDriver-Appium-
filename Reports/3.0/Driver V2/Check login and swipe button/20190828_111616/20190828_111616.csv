@@ -1,0 +1,6 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Check login and swipe button,,,,2019-08-28 11:16:24,2019-08-28 11:17:19,55.039s,INCOMPLETE
+,,,,,,,
+Test Cases/Mobile Drivers/Login/Login Drivers,,,,2019-08-28 11:16:24,2019-08-28 11:17:19,54.858s,PASSED
+"runFeatureFile(""Include/features/Mobile/Drivers V2/Login/LoginDrivers.feature"", STOP_ON_FAILURE)",,,,2019-08-28 11:16:24,2019-08-28 11:17:18,54.248s,PASSED
+Start tear down : tearDownTestCase,,,,2019-08-28 11:17:18,2019-08-28 11:17:19,0.428s,PASSED

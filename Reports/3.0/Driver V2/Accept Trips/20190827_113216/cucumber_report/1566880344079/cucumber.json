@@ -1,0 +1,126 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 15,
+        "name": "Login Drivers",
+        "description": "",
+        "id": "login;login-drivers;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 15498994503,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User install and open ritase driver apps",
+            "match": {
+              "location": "Login.userInstallAndOpenDriverApps()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "com.kms.katalon.core.exception.StepFailedException: Object Object Repository/Driver Apps V2/tap_initialLogin not found\n\tat com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)\n\tat com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)\n\tat com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:79)\n\tat com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)\n\tat com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)\n\tat com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:86)\n\tat com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:68)\n\tat com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)\n\tat com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:485)\n\tat com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tap$2.call(Unknown Source)\n\tat mobile.drivers.Login.userTapInitialLoginButton(Login.groovy:64)\n\tat ✽.User tap initial login button(/home/jarwo/Katalon Studio/Ritase Automation Testing/Include/features/Mobile/Drivers V2/Login/LoginDrivers.feature:5)\n",
+              "duration": 4534206982,
+              "status": "failed"
+            },
+            "line": 5,
+            "name": "User tap initial login button",
+            "match": {
+              "location": "Login.userTapInitialLoginButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "User fill email address driver sopo@qa.com",
+            "match": {
+              "arguments": [
+                {
+                  "val": "sopo@qa.com",
+                  "offset": 31
+                }
+              ],
+              "location": "Login.userFillEmailAddressDriver(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "User fill password driver rahasia",
+            "match": {
+              "arguments": [
+                {
+                  "val": "rahasia",
+                  "offset": 26
+                }
+              ],
+              "location": "Login.userFillPasswordDriver(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "User tap login button",
+            "match": {
+              "location": "Login.userTapLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "User see tab trip",
+            "match": {
+              "location": "Login.userSeeTabTrip()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "User swipe right to left",
+            "match": {
+              "location": "Helper.userSwipeRightToLeft()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "User see tab wallet",
+            "match": {
+              "location": "Login.userSeeTabWallet()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login",
+    "description": "",
+    "id": "login",
+    "keyword": "Feature",
+    "uri": "/home/jarwo/Katalon Studio/Ritase Automation Testing/Include/features/Mobile/Drivers V2/Login/LoginDrivers.feature",
+    "tags": []
+  }
+]

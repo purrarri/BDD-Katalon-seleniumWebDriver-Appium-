@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Create single orders,Firefox 68.0,,,2019-08-27 15:52:37,2019-08-27 15:53:06,29.026s,INCOMPLETE
+,,,,,,,
+Test Cases/Web Ritase/Login/Login Shippers (DIRA XL),Firefox 68.0,,,2019-08-27 15:52:37,2019-08-27 15:52:51,14.153s,PASSED
+"runFeatureFile(""Include/features/Web/Login/LoginShippers.feature"", STOP_ON_FAILURE)",Firefox 68.0,,,2019-08-27 15:52:37,2019-08-27 15:52:51,14.017s,PASSED
+,,,,,,,
+Test Cases/Web Ritase/Orders/Single Orders (DIRA XL),Firefox 68.0,,,2019-08-27 15:52:51,2019-08-27 15:53:06,14.717s,PASSED
+"runFeatureFile(""Include/features/Web/Orders/SingleOrderXL.feature"", STOP_ON_FAILURE)",Firefox 68.0,,,2019-08-27 15:52:52,2019-08-27 15:53:06,14.622s,PASSED

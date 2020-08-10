@@ -1,0 +1,119 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 14,
+        "name": "Login Drivers",
+        "description": "",
+        "id": "login;login-drivers;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3037625503,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User tap initial login button",
+            "match": {
+              "location": "Login.userTapInitialLoginButton()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1684958955,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User fill email address driver sopo@qa.com",
+            "match": {
+              "arguments": [
+                {
+                  "val": "sopo@qa.com",
+                  "offset": 31
+                }
+              ],
+              "location": "Login.userFillEmailAddressDriver(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1925371358,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User fill password driver rahasia",
+            "match": {
+              "arguments": [
+                {
+                  "val": "rahasia",
+                  "offset": 26
+                }
+              ],
+              "location": "Login.userFillPasswordDriver(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 14824948759,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User tap login button",
+            "match": {
+              "location": "Login.userTapLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 462320032,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User see tab trip",
+            "match": {
+              "location": "Login.userSeeTabTrip()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 11268585060,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User swipe right to left",
+            "match": {
+              "location": "Helper.userSwipeRightToLeft()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2859002280,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User see tab wallet",
+            "match": {
+              "location": "Login.userSeeTabWallet()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login",
+    "description": "",
+    "id": "login",
+    "keyword": "Feature",
+    "uri": "/home/jarwo/Katalon Studio/Ritase Automation Testing/Include/features/Mobile/Drivers V2/Login/LoginDrivers.feature",
+    "tags": []
+  }
+]

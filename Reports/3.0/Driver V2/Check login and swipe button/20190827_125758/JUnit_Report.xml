@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<testsuites name="Check login and swipe button" time="54" tests="0" failures="0" errors="0">
+    <testsuite name="Check login and swipe button" tests="0" failures="0" errors="0" time="54" timestamp="2019-08-27 12:58:06" hostname="jarwo - redstar" id="Test Suites/3.0/Driver V2/Check login and swipe button">
+        <properties>
+            <property name="deviceName" value="Xiaomi Redmi 6A (Android 8.1.0)"/>
+            <property name="devicePlatform" value=""/>
+            <property name="logFolder" value="/home/jarwo/Katalon Studio/Ritase Automation Testing/Reports/3.0/Driver V2/Check login and swipe button/20190827_125758"/>
+            <property name="logFiles" value="/home/jarwo/Katalon Studio/Ritase Automation Testing/Reports/3.0/Driver V2/Check login and swipe button/20190827_125758/appium.log, /home/jarwo/Katalon Studio/Ritase Automation Testing/Reports/3.0/Driver V2/Check login and swipe button/20190827_125758/execution0.log"/>
+            <property name="attachments" value=""/>
+            <property name="hostName" value="jarwo - redstar"/>
+            <property name="os" value="Linux 64bit"/>
+            <property name="katalonVersion" value="6.2.1.2"/>
+            <property name="deviceOS" value="Android"/>
+            <property name="appiumVersion" value="1.14.1"/>
+            <property name="deviceModel" value="Redmi 6A"/>
+            <property name="hostAddress" value="127.0.1.1"/>
+            <property name="deviceManufacturer" value="Xiaomi"/>
+            <property name="deviceId" value="f24006487d26"/>
+            <property name="deviceName" value="Xiaomi Redmi 6A (Android 8.1.0)"/>
+            <property name="deviceOSVersion" value="8.1.0"/>
+        </properties>
+        <testcase name="Test Cases/Mobile Drivers/Login/Login Drivers" classname="Test Cases/Mobile Drivers/Login/Login Drivers" status="INCOMPLETE">
+            <system-out>2019-08-27 12:58:06 - [TEST_CASE][INCOMPLETE] - Test Cases/Mobile Drivers/Login/Login Drivers: null
+
+2019-08-27 12:58:06 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Mobile Drivers/Initial"), [:], STOP_ON_FAILURE): Test Cases/Mobile Drivers/Login/Login Drivers
+
+2019-08-27 12:58:06 - [TEST_CASE][PASSED] - Test Cases/Mobile Drivers/Initial: Test Cases/Mobile Drivers/Initial
+
+2019-08-27 12:58:07 - [TEST_STEP][PASSED] - runFeatureFile("Include/features/Mobile/Drivers V2/Initial.feature", STOP_ON_FAILURE): Feature file: 'Include/features/Mobile/Drivers V2/Initial.feature' was passed
+
+2019-08-27 12:58:07 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/Mobile/Drivers V2/Initial.feature' and extract report to folder: '/home/jarwo/Katalon Studio/Ritase Automation Testing/Reports/3.0/Driver V2/Check login and swipe button/20190827_125758/cucumber_report/1566885487041'...
+
+2019-08-27 12:58:07 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Initial driver apps: SCENARIO Initial driver apps
+
+2019-08-27 12:58:07 - [TEST_STEP][PASSED] - User install and open ritase driver apps: User install and open ritase driver apps
+
+2019-08-27 12:58:08 - [MESSAGE][INFO] - Appium server started on port 41,785
+
+2019-08-27 12:58:23 - [MESSAGE][PASSED] - Started app at: '/home/jarwo/Katalon Studio/Ritase Automation Testing/APK/stg-driver.apk'
+
+2019-08-27 12:58:24 - [MESSAGE][PASSED] - Current device physical height is 1344
+
+2019-08-27 12:58:24 - [MESSAGE][PASSED] - Current device physical width is 720
+
+2019-08-27 12:58:24 - [MESSAGE][PASSED] - User install and open ritase driver apps
+
+2019-08-27 12:58:24 - [MESSAGE][PASSED] - Feature file: 'Include/features/Mobile/Drivers V2/Initial.feature' was passed
+
+2019-08-27 12:58:24 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Mobile Drivers/Initial' successfully
+
+2019-08-27 12:58:24 - [TEST_STEP][PASSED] - runFeatureFile("Include/features/Mobile/Drivers V2/Login/LoginDrivers.feature", STOP_ON_FAILURE): Feature file: 'Include/features/Mobile/Drivers V2/Login/LoginDrivers.feature' was passed
+
+2019-08-27 12:58:24 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/Mobile/Drivers V2/Login/LoginDrivers.feature' and extract report to folder: '/home/jarwo/Katalon Studio/Ritase Automation Testing/Reports/3.0/Driver V2/Check login and swipe button/20190827_125758/cucumber_report/1566885504326'...
+
+2019-08-27 12:58:24 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Login Drivers: SCENARIO Login Drivers
+
+2019-08-27 12:58:24 - [TEST_STEP][PASSED] - User tap initial login button: User tap initial login button
+
+2019-08-27 12:58:27 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Driver Apps V2/tap_initialLogin'
+
+2019-08-27 12:58:27 - [MESSAGE][PASSED] - User tap initial login button
+
+2019-08-27 12:58:27 - [TEST_STEP][PASSED] - User fill email address driver sopo@qa.com: User fill email address driver sopo@qa.com
+
+2019-08-27 12:58:29 - [MESSAGE][PASSED] - Text 'sopo@qa.com' has been set to element 'Object Repository/Driver Apps V2/input_emailDriver'
+
+2019-08-27 12:58:29 - [MESSAGE][PASSED] - User fill email address driver sopo@qa.com
+
+2019-08-27 12:58:29 - [TEST_STEP][PASSED] - User fill password driver rahasia: User fill password driver rahasia
+
+2019-08-27 12:58:31 - [MESSAGE][PASSED] - Text 'rahasia' has been set to element 'Object Repository/Driver Apps V2/input_passwordDriver'
+
+2019-08-27 12:58:31 - [MESSAGE][PASSED] - User fill password driver rahasia
+
+2019-08-27 12:58:31 - [TEST_STEP][PASSED] - User tap login button: User tap login button
+
+2019-08-27 12:58:36 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Driver Apps V2/tap_loginButton'
+
+2019-08-27 12:58:46 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-08-27 12:58:46 - [MESSAGE][PASSED] - User tap login button
+
+2019-08-27 12:58:46 - [TEST_STEP][PASSED] - User see tab trip: User see tab trip
+
+2019-08-27 12:58:46 - [MESSAGE][PASSED] - Text of element 'Object Repository/Driver Apps V2/txt_tripMenu' is: 'Punya pertanyaan? Tanyakan dengan Admin'
+
+2019-08-27 12:58:46 - [MESSAGE][PASSED] - User see tab trip
+
+2019-08-27 12:58:46 - [TEST_STEP][PASSED] - User swipe right to left: User swipe right to left
+
+2019-08-27 12:58:56 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-08-27 12:58:57 - [MESSAGE][PASSED] - Swiped from 576,672 to 144,672
+
+2019-08-27 12:58:58 - [MESSAGE][PASSED] - User swipe right to left
+
+2019-08-27 12:58:58 - [TEST_STEP][PASSED] - User see tab wallet: User see tab wallet
+
+2019-08-27 12:59:01 - [MESSAGE][PASSED] - Text of element 'Object Repository/Driver Apps V2/txt_walletMenu' is: 'Fitur Wallet Belum Aktif'
+
+2019-08-27 12:59:01 - [MESSAGE][PASSED] - User see tab wallet
+
+2019-08-27 12:59:01 - [MESSAGE][PASSED] - Feature file: 'Include/features/Mobile/Drivers V2/Login/LoginDrivers.feature' was passed
+
+2019-08-27 12:59:01 - [MESSAGE][PASSED] - Test Cases/Mobile Drivers/Login/Login Drivers
+
+2019-08-27 12:59:01 - [TEST_STEP][INCOMPLETE] - Start listener action : exportKatalonReports: null</system-out>
+            <system-err>2019-08-27 12:58:06 - [TEST_CASE][INCOMPLETE] - Test Cases/Mobile Drivers/Login/Login Drivers: null</system-err>
+        </testcase>
+        <system-out>2019-08-27 12:58:06 - [TEST_SUITE][INCOMPLETE] - Check login and swipe button: null</system-out>
+        <system-err>2019-08-27 12:58:06 - [TEST_SUITE][INCOMPLETE] - Check login and swipe button: null</system-err>
+    </testsuite>
+</testsuites>

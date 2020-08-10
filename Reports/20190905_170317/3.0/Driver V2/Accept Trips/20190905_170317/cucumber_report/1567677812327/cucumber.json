@@ -1,0 +1,215 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 22,
+        "name": "Login Drivers",
+        "description": "",
+        "id": "login;login-drivers;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 28735686400,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User install and open ritase driver apps",
+            "match": {
+              "location": "Helper.userInstallAndOpenDriverApps()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4432574300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User tap initial login button",
+            "match": {
+              "location": "Login.userTapInitialLoginButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1952294500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User fill email address driver 082329073112",
+            "match": {
+              "arguments": [
+                {
+                  "val": "082329073112",
+                  "offset": 31
+                }
+              ],
+              "location": "Login.userFillEmailAddressDriver(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2042260600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User fill password driver 1234567",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1234567",
+                  "offset": 26
+                }
+              ],
+              "location": "Login.userFillPasswordDriver(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 12878298000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User tap login button",
+            "match": {
+              "location": "Login.userTapLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1314726000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User see tab trip",
+            "match": {
+              "location": "Login.userSeeTabTrip()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6330367200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User swipe one to two",
+            "match": {
+              "location": "Login.swipeOnetoTwo()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2555941700,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User see tab wallet",
+            "match": {
+              "location": "Login.userSeeTabWallet()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6422465100,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User swipe two to three",
+            "match": {
+              "location": "Login.swipeTwotoThree()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6281366300,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User swipe three to four",
+            "match": {
+              "location": "Login.swipeThreetoFour()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 667042300,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User see tab Profil",
+            "match": {
+              "location": "Login.userSeeTabProfil()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6228908400,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User swipe up",
+            "match": {
+              "location": "Login.userSwipeToButtom()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 13291334200,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User logout",
+            "match": {
+              "location": "Login.userTapLogout()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 650866000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User Konfirmasi",
+            "match": {
+              "location": "Login.userKonfirmasi()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 13426027500,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User exit",
+            "match": {
+              "location": "Login.userTapExit()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login",
+    "description": "",
+    "id": "login",
+    "keyword": "Feature",
+    "uri": "C:/Users/Purrari/Documents/Ritase Automation/Include/features/Mobile/Drivers V2/Login/LoginDrivers.feature",
+    "tags": []
+  }
+]

@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Accept Trips,,,,2019-08-27 11:32:23,2019-08-27 11:32:55,31.487s,INCOMPLETE
+,,,,,,,
+Test Cases/Mobile Drivers/Login/Login Drivers,,,,2019-08-27 11:32:23,2019-08-27 11:32:44,20.670s,FAILED
+"runFeatureFile(""Include/features/Mobile/Drivers V2/Login/LoginDrivers.feature"", STOP_ON_FAILURE)",,,,2019-08-27 11:32:24,2019-08-27 11:32:44,20.490s,FAILED
+,,,,,,,
+Test Cases/Mobile Drivers/Trips/Accept Trips,,,,2019-08-27 11:32:44,2019-08-27 11:32:55,10.665s,FAILED
+"runFeatureFile(""Include/features/Mobile/Drivers V2/Trips/AcceptTrips.feature"", STOP_ON_FAILURE)",,,,2019-08-27 11:32:44,2019-08-27 11:32:55,10.551s,FAILED

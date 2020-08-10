@@ -1,0 +1,113 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 13,
+        "name": "Login Shippers",
+        "description": "",
+        "id": "login;login-shippers;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 9878041010,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User open browser and visit https://staging.shippers.rit-ase.com/",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://staging.shippers.rit-ase.com/",
+                  "offset": 28
+                }
+              ],
+              "location": "Login.userOpenBrowserAndVisitUrl(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 83793543,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User see login page",
+            "match": {
+              "location": "Login.userSeeLoginPage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 211638639,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User fill email shippers order@xl.co.id",
+            "match": {
+              "arguments": [
+                {
+                  "val": "order@xl.co.id",
+                  "offset": 25
+                }
+              ],
+              "location": "Login.userFillEmail(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 114818254,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User fill password shippers YFZfyx+NhJE\u003d",
+            "match": {
+              "arguments": [
+                {
+                  "val": "YFZfyx+NhJE\u003d",
+                  "offset": 28
+                }
+              ],
+              "location": "Login.userFillPassword(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3332956378,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User click button login",
+            "match": {
+              "location": "Login.userClickButtonLogin()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 24277243,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User see dashboard menu",
+            "match": {
+              "location": "Login.userSeeDashboardMenu()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login",
+    "description": "",
+    "id": "login",
+    "keyword": "Feature",
+    "uri": "/home/jarwo/Katalon Studio/Ritase Automation Testing/Include/features/Web/Login/LoginShippers.feature",
+    "tags": []
+  }
+]

@@ -1,0 +1,35 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Initial driver apps",
+        "description": "",
+        "id": "initial;initial-driver-apps",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 13804315335,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User install and open ritase driver apps",
+            "match": {
+              "location": "Helper.userInstallAndOpenDriverApps()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      }
+    ],
+    "name": "Initial",
+    "description": "",
+    "id": "initial",
+    "keyword": "Feature",
+    "uri": "/home/jarwo/Katalon Studio/Ritase Automation Testing/Include/features/Mobile/Drivers V2/Initial.feature",
+    "tags": []
+  }
+]

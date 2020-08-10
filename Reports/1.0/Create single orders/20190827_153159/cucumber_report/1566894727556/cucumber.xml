@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="14.754699">
+<testcase classname="Login" name="Login Shippers" time="14.754699">
+<system-out><![CDATA[Given User open browser and visit https://staging.shippers.rit-ase.com/.....passed
+Then User see login page....................................................passed
+When User fill email shippers order@xl.co.id................................passed
+And User fill password shippers YFZfyx+NhJE=................................passed
+And User click button login.................................................passed
+Then User see dashboard menu................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

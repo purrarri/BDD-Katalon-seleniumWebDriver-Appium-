@@ -1,0 +1,107 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 14,
+        "name": "Accept Order",
+        "description": "",
+        "id": "trips;accept-order;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6309254899,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User open trip menu",
+            "match": {
+              "location": "Trips.userOpenTripMenu()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1004538362,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User see tab trip",
+            "match": {
+              "location": "Login.userSeeTabTrip()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 11229622543,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User swipe top to buttom",
+            "match": {
+              "location": "Helper.userSwipeTopToButtom()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 490291010,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User see order cards",
+            "match": {
+              "location": "Trips.userSeeOrderCards()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 7949919184,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User tap first cards",
+            "match": {
+              "location": "Trips.userTapFirstCards()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 11105341927,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User tap yes button",
+            "match": {
+              "location": "Trips.userTapYesButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 491445917,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User see tab trip",
+            "match": {
+              "location": "Login.userSeeTabTrip()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Trips",
+    "description": "",
+    "id": "trips",
+    "keyword": "Feature",
+    "uri": "/home/jarwo/Katalon Studio/Ritase Automation Testing/Include/features/Mobile/Drivers V2/Trips/AcceptTrips.feature",
+    "tags": []
+  }
+]

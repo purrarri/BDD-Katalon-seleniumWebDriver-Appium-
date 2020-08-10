@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="16.832957">
+<testcase classname="Initial" name="Initial driver apps" time="16.832957">
+<system-out><![CDATA[Given User install and open ritase driver apps..............................passed
+]]></system-out>
+</testcase>
+</testsuite>
